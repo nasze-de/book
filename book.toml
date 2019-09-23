@@ -1,6 +1,13 @@
 [book]
-authors = ["tom"]
 language = "en"
 multilingual = false
 src = "src"
-title = "Programista.de"
+title = "nasze.de"
+description = "Nasze Niemcy"
+authors = ["Tomasz Sapletta"]
+[output.html]
+additional-css = ["custom.css"]
+git-repository-url = "https://github.com/nasze-de/book"
+git-repository-icon = "fa-github"
+[output.html.search]
+limit-results = 15
